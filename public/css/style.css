@@ -15511,4 +15511,23 @@ readers do not read off random characters that represent icons */
   -webkit-filter: brightness(30%);
 }
 
+.buton button {
+  border-radius: 24px;
+  margin: 10px;
+}
+
+.carsel {
+  height: 600px;
+}
+.carsel .parag {
+  text-align: center;
+  margin-left: 270px;
+  margin-top: 200px;
+  width: 45vw;
+}
+.carsel p {
+  color: white;
+  font-size: 45px;
+}
+
 /*# sourceMappingURL=style.css.map */
