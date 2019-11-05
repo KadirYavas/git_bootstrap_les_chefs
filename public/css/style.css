@@ -15539,6 +15539,50 @@ readers do not read off random characters that represent icons */
 
 .divimg {
   background-color: white;
+  height: 900px;
+  position: relative;
+  top: 50px;
+}
+.divimg .hautgauche {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.divimg .hautdroite {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.divimg .basgauche {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.divimg .basdroite {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu img {
+  border-radius: 50%;
+}
+.menu .cafe img {
+  float: left;
+}
+.menu .cafe span {
+  position: absolute;
+  top: 15px;
+  left: 400px;
+  background-color: grey;
+  padding: 3px 15px;
+}
+
+.menuicon li {
+  list-style: none;
+}
+.menuicon li i:active {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
