@@ -15577,8 +15577,9 @@ readers do not read off random characters that represent icons */
 }
 .menu .cafe .buton {
   background-color: lightgrey;
-  height: 35px;
-  padding: 5px 10px;
+  margin-top: 10px;
+  height: 30px;
+  padding: 3px 10px;
 }
 
 .menuicon li {
@@ -15681,6 +15682,7 @@ readers do not read off random characters that represent icons */
 .femme img {
   border-radius: 50%;
   border: 3px solid white;
+  margin: 15px;
 }
 
 .textfemme {
