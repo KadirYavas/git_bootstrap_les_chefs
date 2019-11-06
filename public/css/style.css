@@ -15539,7 +15539,7 @@ readers do not read off random characters that represent icons */
 
 .divimg {
   background-color: white;
-  height: 900px;
+  height: 880px;
   position: relative;
   top: 50px;
 }
@@ -15563,26 +15563,35 @@ readers do not read off random characters that represent icons */
   bottom: 0;
   right: 0;
 }
+.divimg .lorem {
+  display: block;
+  padding: 5px 250px;
+}
 
 .menu img {
   border-radius: 50%;
 }
-.menu .cafe img {
-  float: left;
+.menu .cafe {
+  display: flex;
+  justify-content: space-between;
 }
-.menu .cafe span {
-  position: absolute;
-  top: 15px;
-  left: 400px;
-  background-color: grey;
-  padding: 3px 15px;
+.menu .cafe button {
+  height: 35px;
 }
 
 .menuicon li {
   list-style: none;
 }
+.menuicon li i {
+  color: grey;
+}
 .menuicon li i:active {
   color: red;
+}
+
+.deco {
+  margin-left: 31%;
+  margin-top: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
