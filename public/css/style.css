@@ -15691,4 +15691,18 @@ readers do not read off random characters that represent icons */
   margin-left: 73px;
 }
 
+.contactimg {
+  background-image: url("../../public/images/main_bg.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.contactf {
+  display: inline-block;
+  background-color: #c50052;
+  border-radius: 20px;
+  position: relative;
+  left: 33%;
+}
+
 /*# sourceMappingURL=style.css.map */
