@@ -15575,8 +15575,10 @@ readers do not read off random characters that represent icons */
   display: flex;
   justify-content: space-between;
 }
-.menu .cafe button {
+.menu .cafe .buton {
+  background-color: lightgrey;
   height: 35px;
+  padding: 5px 10px;
 }
 
 .menuicon li {
@@ -15585,7 +15587,7 @@ readers do not read off random characters that represent icons */
 .menuicon li i {
   color: grey;
 }
-.menuicon li i:active {
+.menuicon li i:hover {
   color: red;
 }
 
@@ -15659,7 +15661,7 @@ readers do not read off random characters that represent icons */
   margin-top: 50px;
 }
 .blog span {
-  background-color: red;
+  background-color: #b1004a;
   border-radius: 10px;
   padding: 10px 10px;
   position: relative;
