@@ -15539,7 +15539,7 @@ readers do not read off random characters that represent icons */
 
 .divimg {
   background-color: white;
-  height: 880px;
+  height: 930px;
   position: relative;
   top: 50px;
 }
@@ -15592,6 +15592,28 @@ readers do not read off random characters that represent icons */
 .deco {
   margin-left: 31%;
   margin-top: 2%;
+}
+
+.chef {
+  background-image: url(../../public/images/team_background.jpg);
+  height: 600px;
+}
+
+.sectionform {
+  background-image: url("../../public/images/main_bg.jpg");
+  width: 100%;
+  height: 1000px;
+}
+
+.divform {
+  background-color: white;
+  height: 800px;
+  position: relative;
+  top: 50px;
+}
+
+.formimg {
+  background-image: url(../../public/images/book_table_bg.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
