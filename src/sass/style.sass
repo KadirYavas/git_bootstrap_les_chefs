@@ -187,4 +187,17 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 .footertext 
     padding-top: 30px
     padding-left: 150px
-    
+
+$break-small: 576px
+$break-xsmall: 300px
+
+
+@media (min-width: $break-xsmall) and (max-width: $break-small) 
+    #carouselExampleIndicators
+        display: none
+    .lorem p 
+        width: 50vw
+    .menuresp 
+        display: inline
+    .chefresp
+        display: inline

@@ -15741,4 +15741,22 @@ readers do not read off random characters that represent icons */
   padding-left: 150px;
 }
 
+@media (min-width: 300px) and (max-width: 576px) {
+  #carouselExampleIndicators {
+    display: none;
+  }
+
+  .lorem p {
+    width: 50vw;
+  }
+
+  .menuresp {
+    display: inline;
+  }
+
+  .chefresp {
+    display: inline;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
