@@ -15591,6 +15591,12 @@ readers do not read off random characters that represent icons */
 .menuicon li i:hover {
   color: red;
 }
+.menuicon .iconhover {
+  border-right: 1px solid black;
+}
+.menuicon .iconhover:hover {
+  border-right: 5px solid red;
+}
 
 .deco {
   margin-left: 31%;
