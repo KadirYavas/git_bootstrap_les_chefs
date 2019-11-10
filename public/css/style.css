@@ -15528,6 +15528,7 @@ readers do not read off random characters that represent icons */
 .carsel p {
   color: white;
   font-size: 45px;
+  font-family: "Courgette", cursive;
 }
 
 .sectionimg {
@@ -15567,6 +15568,9 @@ readers do not read off random characters that represent icons */
   display: block;
   padding: 5px 250px;
 }
+.divimg h1 {
+  font-family: "Courgette", cursive;
+}
 
 .menu img {
   border-radius: 50%;
@@ -15594,6 +15598,9 @@ readers do not read off random characters that represent icons */
 .menuicon .iconhover {
   border-right: 1px solid black;
 }
+.menuicon .iconhover span {
+  font-family: "Courgette", cursive;
+}
 .menuicon .iconhover:hover {
   border-right: 5px solid red;
 }
@@ -15606,6 +15613,9 @@ readers do not read off random characters that represent icons */
 .chef {
   background-image: url(../../public/images/team_background.jpg);
   height: 600px;
+}
+.chef h1 {
+  font-family: "Courgette", cursive;
 }
 
 .sectionform {
@@ -15639,6 +15649,9 @@ readers do not read off random characters that represent icons */
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.divform h1 {
+  font-family: "Courgette", cursive;
 }
 
 .formimg {
@@ -15684,6 +15697,9 @@ readers do not read off random characters that represent icons */
   background-image: url(../../public/images/testimonials_background.jpg);
   height: 400px;
 }
+.testimimg h1 {
+  font-family: "Courgette", cursive;
+}
 
 .femme img {
   border-radius: 50%;
@@ -15705,6 +15721,9 @@ readers do not read off random characters that represent icons */
   background-image: url("../../public/images/main_bg.jpg");
   width: 100%;
   height: 500px;
+}
+.contactimg h1 {
+  font-family: "Courgette", cursive;
 }
 
 .contactf {
