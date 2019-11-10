@@ -15762,21 +15762,121 @@ readers do not read off random characters that represent icons */
   border: 3px solid grey;
 }
 
-@media (min-width: 300px) and (max-width: 576px) {
+@media (min-width: 450px) and (max-width: 576px) {
   #carouselExampleIndicators {
     display: none;
   }
 
   .lorem p {
     width: 50vw;
+    position: relative;
+    left: -120px;
   }
 
   .menuresp {
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 40%;
+  }
+  .menuresp .menu img {
+    width: 70%;
   }
 
-  .chefresp {
-    display: inline;
+  .border-bottom {
+    width: 90px;
+  }
+
+  .sectionimg {
+    height: 3200px;
+  }
+
+  .divimg {
+    height: 3000px;
+  }
+
+  .chef {
+    height: 1000px;
+  }
+  .chef .chefresp {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionform {
+    height: 1800px;
+  }
+
+  .divform {
+    height: 1600px;
+  }
+
+  .formimg {
+    width: 80%;
+    position: relative;
+    left: -150px;
+  }
+  .formimg input {
+    width: 150px;
+  }
+  .formimg select {
+    width: 150px;
+  }
+
+  .blog {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog span {
+    position: absolute;
+    top: 280px;
+    left: 0px;
+    height: 40px;
+    width: 110%;
+  }
+
+  .testimimg {
+    height: 1000px;
+  }
+
+  .marginfemme {
+    flex-direction: column;
+  }
+  .marginfemme .textfemme {
+    width: 50%;
+  }
+  .marginfemme img {
+    width: 40%;
+  }
+
+  .contactimg {
+    height: 600px;
+  }
+
+  .contactf {
+    position: relative;
+    left: 30%;
+  }
+  .contactf p {
+    width: 35vw;
+  }
+
+  .footerimg {
+    height: 1300px;
+  }
+
+  .footertext {
+    display: flex;
+    flex-direction: column;
+  }
+  .footertext .iconresp p {
+    width: 250%;
+  }
+  .footertext .tomatoimg img {
+    width: 50%;
+  }
+  .footertext .tomatobutton button {
+    width: 250%;
   }
 }
 

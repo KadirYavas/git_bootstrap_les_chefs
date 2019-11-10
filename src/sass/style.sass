@@ -205,15 +205,87 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 
 
 $break-small: 576px
-$break-xsmall: 300px
+$break-xsmall: 450px
 
 
 @media (min-width: $break-xsmall) and (max-width: $break-small) 
+    
+
     #carouselExampleIndicators
         display: none
     .lorem p 
         width: 50vw
+        position: relative
+        left: -120px
     .menuresp 
-        display: inline
-    .chefresp
-        display: inline
+        display: flex 
+        flex-direction: column
+        position: relative
+        left: 40%
+        .menu
+            img 
+                width: 70%
+    .border-bottom
+        width: 90px
+    .sectionimg 
+        height: 3200px
+    .divimg 
+        height: 3000px
+    .chef
+        height: 1000px
+        .chefresp 
+            display: flex
+            flex-direction: column
+    .sectionform 
+        height: 1800px
+    .divform 
+        height: 1600px
+    .formimg 
+        width: 80%
+        position: relative
+        left: -150px
+        input 
+            width: 150px
+        select
+            width: 150px
+    .blog
+        display: flex 
+        flex-direction: column 
+        span 
+            position: absolute
+            top: 280px
+            left: 0px
+            height: 40px
+            width: 110%
+            
+    .testimimg 
+        height: 1000px
+    .marginfemme 
+        flex-direction: column
+        .textfemme 
+            width: 50%
+        img 
+            width: 40%
+    .contactimg
+        height: 600px
+    .contactf 
+        position: relative
+        left: 30%
+        p 
+            width: 35vw
+
+        
+    .footerimg 
+        height: 1300px
+    .footertext 
+        display: flex
+        flex-direction: column
+        .iconresp
+            p  
+                width: 250%
+        .tomatoimg 
+            img 
+                width: 50%
+        .tomatobutton 
+            button 
+                width: 250%
