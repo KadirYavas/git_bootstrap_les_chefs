@@ -15526,7 +15526,7 @@ readers do not read off random characters that represent icons */
   width: 45vw;
 }
 .carsel p {
-  color: white;
+  color: #ffffff;
   font-size: 45px;
   font-family: "Courgette", cursive;
 }
@@ -15728,7 +15728,7 @@ readers do not read off random characters that represent icons */
 
 .contactf {
   display: inline-block;
-  background-color: #c50052;
+  background-color: #c00076;
   border-radius: 20px;
   position: relative;
   left: 33%;
